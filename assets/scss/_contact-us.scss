@@ -5,4 +5,107 @@
 		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
 	}
+
+	&__left {
+		background-image: url('../images/form-img.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	&__top {
+		margin-bottom: 60px;
+	}
+
+	&__item {
+
+		a {
+
+
+			span {
+				color: #232323;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 23px;
+			}
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__bottom {
+		
+		span {
+			color: #C8C8C8;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 100%;
+		}
+
+		.form {
+
+			&__top {
+				margin-bottom: 35px;
+			}
+
+			&__input {
+				padding: 15px 10px;
+				background: #F3F3F3;
+				width: 100%;
+				border: none;
+
+				&:not(:last-child) {
+					margin-bottom: 15px;
+				}
+			}
+
+			&__bottom {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			&__button {
+				background: $violet;
+				color: #fff;
+				padding: 10px 25px;
+				transition: background 0.2s ease-in-out;
+				-webkit-transition: background 0.2s ease-in-out;
+				-moz-transition: background 0.2s ease-in-out;
+				-ms-transition: background 0.2s ease-in-out;
+				-o-transition: background 0.2s ease-in-out;
+				margin-right: 35px;
+
+				&:hover {
+					background: $violet-light;
+				}
+			}
+
+			&__info {
+				a {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	&__title {
+		color: #232323;
+		font-size: 32px;
+		font-style: normal;
+		line-height: 100%;
+		margin-bottom: 15px;
+	}
+
+	&__descr {
+		color: #232323;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 23px;
+		margin-bottom: 35px;
+	}
 }
