@@ -40,7 +40,11 @@
                   <a href="#" class="nav__link">Контакты</a>
                 </li>
               </ul>
+              <button class="advantages__btn btn-reset" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Оставить заявку
+              </button>
             </nav>
+            
           </div>
         </div>
       </div>
@@ -162,7 +166,7 @@
                   </li>
                 </ul>
                 <div class="advantages__buttons">
-                  <button class="advantages__btn btn-reset">
+                  <button class="advantages__btn btn-reset" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     Оставить заявку
                   </button>
                 </div>
@@ -351,82 +355,96 @@
         </div>
       </section>
 
-      <section class="contact-us section-offset">
-        <div class="container">
-          <div class="contact-us__inner">
-            <div class="contact-us__left">
-
+      <!-- Modal -->
+      <div class="modal modal-xl fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="staticBackdropLabel">Оставить заявку</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="contact-us__right">
-              <div class="contact-us__top">
-                <h2 class="section-title">
-                  Возникла идея? Свяжитесь с нами!
-                </h2>
-                <ul class="contact-us__list">
-                  <li class="contact-us__item">
-                    <a href="#">
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.67962 4.20927L7.18178 3.70711C7.57231 3.31658 8.20547 3.31658 8.59599 3.70711L12.0707 7.18178C12.4612 7.57231 12.4612 8.20547 12.0707 8.59599L10.6655 10.0012C10.4671 10.1995 10.4179 10.5026 10.5434 10.7535C11.9938 13.6542 14.3458 16.0062 17.2465 17.4566C17.4974 17.5821 17.8005 17.5329 17.9988 17.3345L19.404 15.9293C19.7945 15.5388 20.4277 15.5388 20.8182 15.9293L24.2929 19.404C24.6834 19.7945 24.6834 20.4277 24.2929 20.8182L23.7907 21.3204C21.6794 23.4317 18.3368 23.6693 15.9481 21.8777L12.9619 19.6381C11.2184 18.3304 9.66955 16.7816 8.36191 15.0381L6.12226 12.0519C4.33072 9.66318 4.56827 6.32062 6.67962 4.20927Z" stroke="#232323"/>
-                      </svg>
-                      <span>
-                        +7 928 260-60-66
-                      </span>
-                    </a>
-                  </li>
-                  <li class="contact-us__item">
-                    <a href="#">
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="4.66663" y="7" width="18.6667" height="14" rx="2" stroke="#232323"/>
-                        <path d="M4.66663 10.5L13.1055 14.7195C13.6686 15.001 14.3313 15.001 14.8944 14.7195L23.3333 10.5" stroke="#232323"/>
-                      </svg>
-                      <span>
-                        help@help.ru
-                      </span>
-                    </a>
-                  </li>
-                  <li class="contact-us__item">
-                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M22.75 14C22.75 19.9307 16.1787 23.9059 14.4256 24.8609C14.1568 25.0073 13.8432 25.0073 13.5744 24.8609C11.8213 23.9059 5.25 19.9307 5.25 14C5.25 8.75 9.48967 5.25 14 5.25C18.6667 5.25 22.75 8.75 22.75 14Z" stroke="#232323"/>
-                      <circle cx="14" cy="14.0002" r="4.16667" stroke="#232323"/>
-                    </svg>
-                    <span>
-                      г. Назрань, ул. Базоркина 57А, ТД Назрань, 4 этаж
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="contact-us__bottom">
-                <span>
-                  ИЛИ
-                </span>
-                <h2 class="contact-us__title">
-                  Оставьте заявку
-                </h2>
-                <p class="contact-us__descr">
-                  Наш менеджер свяжется с вами в течение 30 минут
-                </p>
-                <form action="#" class="form">
-                  <div class="form__top">
-                    <input type="text" class="form__input form__name" placeholder="Ваше имя">
-                    <input type="email" class="form__input form__email" placeholder="Адрес почты">
-                    <input type="tel" class="form__input form__phone" placeholder="Номер телефона">
+            <div class="modal-body">
+              <section class="contact-us">
+                <div class="container">
+                  <div class="contact-us__inner">
+                    <div class="contact-us__left">
+        
+                    </div>
+                    <div class="contact-us__right">
+                      <div class="contact-us__top">
+                        <h2 class="section-title">
+                          Возникла идея? Свяжитесь с нами!
+                        </h2>
+                        <ul class="contact-us__list">
+                          <li class="contact-us__item">
+                            <a href="#">
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.67962 4.20927L7.18178 3.70711C7.57231 3.31658 8.20547 3.31658 8.59599 3.70711L12.0707 7.18178C12.4612 7.57231 12.4612 8.20547 12.0707 8.59599L10.6655 10.0012C10.4671 10.1995 10.4179 10.5026 10.5434 10.7535C11.9938 13.6542 14.3458 16.0062 17.2465 17.4566C17.4974 17.5821 17.8005 17.5329 17.9988 17.3345L19.404 15.9293C19.7945 15.5388 20.4277 15.5388 20.8182 15.9293L24.2929 19.404C24.6834 19.7945 24.6834 20.4277 24.2929 20.8182L23.7907 21.3204C21.6794 23.4317 18.3368 23.6693 15.9481 21.8777L12.9619 19.6381C11.2184 18.3304 9.66955 16.7816 8.36191 15.0381L6.12226 12.0519C4.33072 9.66318 4.56827 6.32062 6.67962 4.20927Z" stroke="#232323"/>
+                              </svg>
+                              <span>
+                                +7 928 260-60-66
+                              </span>
+                            </a>
+                          </li>
+                          <li class="contact-us__item">
+                            <a href="#">
+                              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="4.66663" y="7" width="18.6667" height="14" rx="2" stroke="#232323"/>
+                                <path d="M4.66663 10.5L13.1055 14.7195C13.6686 15.001 14.3313 15.001 14.8944 14.7195L23.3333 10.5" stroke="#232323"/>
+                              </svg>
+                              <span>
+                                help@help.ru
+                              </span>
+                            </a>
+                          </li>
+                          <li class="contact-us__item">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M22.75 14C22.75 19.9307 16.1787 23.9059 14.4256 24.8609C14.1568 25.0073 13.8432 25.0073 13.5744 24.8609C11.8213 23.9059 5.25 19.9307 5.25 14C5.25 8.75 9.48967 5.25 14 5.25C18.6667 5.25 22.75 8.75 22.75 14Z" stroke="#232323"/>
+                              <circle cx="14" cy="14.0002" r="4.16667" stroke="#232323"/>
+                            </svg>
+                            <span>
+                              г. Назрань, ул. Базоркина 57А, ТД Назрань, 4 этаж
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+        
+                      <div class="contact-us__bottom">
+                        <span>
+                          ИЛИ
+                        </span>
+                        <h2 class="contact-us__title">
+                          Оставьте заявку
+                        </h2>
+                        <p class="contact-us__descr">
+                          Наш менеджер свяжется с вами в течение 30 минут
+                        </p>
+                        <form action="#" class="form">
+                          <div class="form__top">
+                            <input type="text" class="form__input form__name" placeholder="Ваше имя">
+                            <input type="email" class="form__input form__email" placeholder="Адрес почты">
+                            <input type="tel" class="form__input form__phone" placeholder="Номер телефона">
+                          </div>
+                          <div class="form__bottom">
+                            <input type="button" class="form__button btn-reset" value="Оставить заявку">
+                            <p class="form__info">
+                              Оставляя заявку, вы принимаете условия 
+                              <a href="#">
+                                пользовательского соглашения
+                              </a>
+                            </p>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
                   </div>
-                  <div class="form__bottom">
-                    <input type="button" class="form__button btn-reset" value="Оставить заявку">
-                    <p class="form__info">
-                      Оставляя заявку, вы принимаете условия 
-                      <a href="#">
-                        пользовательского соглашения
-                      </a>
-                    </p>
-                  </div>
-                </form>
-              </div>
+                </div>
+              </section>
             </div>
+            
           </div>
         </div>
-      </section>
+      </div>
 
     </main>
 

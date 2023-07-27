@@ -118,6 +118,13 @@ body {
   width: 100%;
   max-width: 80px;
 }
+.header .nav {
+  display: flex;
+  align-items: center;
+}
+.header .nav__list {
+  margin-right: 30px;
+}
 .header .nav__item:not(:last-child) {
   margin-right: 20px;
 }
