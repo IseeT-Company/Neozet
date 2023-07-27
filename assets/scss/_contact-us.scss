@@ -4,6 +4,7 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
+		padding: 30px 0;
 	}
 
 	&__left {
@@ -85,6 +86,11 @@
 			}
 
 			&__info {
+				color: #7A7A7A;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 22px;
 				a {
 					text-decoration: underline;
 				}

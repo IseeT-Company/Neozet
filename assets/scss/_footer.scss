@@ -1,0 +1,13 @@
+.footer {
+	padding: 10px 0;
+
+	&__top {
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+
+	&__img {
+		width: 80px;
+	}
+}
