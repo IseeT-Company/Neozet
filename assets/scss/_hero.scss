@@ -1,0 +1,14 @@
+.hero {
+
+	.title {
+
+		span:not(:last-child) {
+			color: $violet;
+		}
+	}
+
+	&__text {
+		color: #333333;
+		line-height: 24px;
+	}
+}

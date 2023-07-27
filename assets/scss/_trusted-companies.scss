@@ -1,0 +1,23 @@
+.trusted-companies {
+
+	&__descr {
+		margin-bottom: 40px;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 40px;
+		row-gap: 80px;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__img {
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+}
+}

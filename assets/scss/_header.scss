@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  width: 100%;
+  color: #000;
+
+  .carousel-item{ height: 80vh !important; max-height: 80vh !important; }
+  .d-block{ height: 80vh !important; max-height: 80vh !important; }
+
+  &__inner {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  &__content {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 80px;
+  }
+
+  .nav {
+    &__item:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &__item {
+      font-size: 15px;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s ease-in-out;
+      padding-bottom: 1px;
+    }
+
+    &__item:hover {
+      color: $violet;
+      border-bottom: 2px solid $violet;
+    }
+  }
+}
