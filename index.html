@@ -1,7 +1,3 @@
-<?php
-require 'php/config.php';
-?>
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -594,7 +590,7 @@ require 'php/config.php';
 			//   let text = `Новая заявка: ${date.toLocaleString("ru", options)}\r\n\Имя: ${name}\r\n\Почта: ${email}\r\n\Номер телефона: ${tel}\r\nПроблема: ${msg}`;
 			let text = `Новая заявка: ${date.toLocaleString("ru", options)}\r\n\Имя: ${name}\r\n\Почта: ${email}\r\n\Номер телефона: ${tel}`;
 
-			let url = `https://api.whatsapp.com/send/?phone=<?php echo $number; ?>&text=${encodeURIComponent(text)}&type=phone_number&app_absent=0`
+			let url = `https://api.whatsapp.com/send/?phone=79258517902&text=${encodeURIComponent(text)}&type=phone_number&app_absent=0`
 
 			window.open(url);
 		}
