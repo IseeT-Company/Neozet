@@ -1,3 +1,15 @@
+@mixin violet-gradient {
+  background: hsla(304, 29%, 40%, 1);
+
+  background: linear-gradient(90deg, hsla(304, 29%, 40%, 1) 0%, hsla(259, 48%, 34%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(304, 29%, 40%, 1) 0%, hsla(259, 48%, 34%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(304, 29%, 40%, 1) 0%, hsla(259, 48%, 34%, 1) 100%);
+
+  //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#83487F", endColorstr="#472D80", GradientType=1 );
+}
 $violet: #603880;
+$violet-rgba: rgba(96, 56, 128, 1);
 $violet-light: #8a50ba;
 $section-title: 1.7rem;
