@@ -43,7 +43,8 @@ body {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  color: inherit; }
+  color: inherit;
+  border-radius: 5px; }
 
 .flex {
   display: -webkit-box;
@@ -82,6 +83,9 @@ body {
 
 .section-offset {
   padding: 60px 0 60px 0; }
+
+input, textarea {
+  border-radius: 7px !important; }
 
 .header {
   position: relative;
@@ -143,7 +147,8 @@ body {
   background-image: url("../images/advantages-image.jpeg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: 7px; }
 .advantages__right {
   width: 100%;
   display: -webkit-box;
@@ -250,7 +255,8 @@ body {
   background-image: url("../images/form-img.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  border-radius: 7px; }
 .contact-us__top {
   margin-bottom: 60px; }
 .contact-us__item a span {
@@ -371,5 +377,4 @@ body {
     margin-bottom: 10px; }
   .footer__img {
     width: 80px; }
-
 /*# sourceMappingURL=style.css.map */
