@@ -142,7 +142,7 @@ input, textarea {
 .advantages__block {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px; }
+  gap: 40px; }
 .advantages__left {
   background-image: url("../images/advantages-image.jpeg");
   background-position: center;
@@ -165,7 +165,7 @@ input, textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 20px;
+  gap: 40px;
   margin-bottom: 60px; }
   .advantages__list .advantage svg {
     margin-bottom: 10px; }
@@ -249,7 +249,7 @@ input, textarea {
 .contact-us__inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 40px;
   padding: 30px 0; }
 .contact-us__left {
   background-image: url("../images/form-img.jpg");
@@ -377,4 +377,5 @@ input, textarea {
     margin-bottom: 10px; }
   .footer__img {
     width: 80px; }
+
 /*# sourceMappingURL=style.css.map */
