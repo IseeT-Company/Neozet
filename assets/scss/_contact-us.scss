@@ -64,6 +64,11 @@
 				}
 			}
 
+			&__message {
+				height: 100px;
+				resize: none;
+			}
+
 			&__bottom {
 				display: flex;
 				justify-content: space-between;
