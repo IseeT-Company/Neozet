@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
 * {
   box-sizing: border-box;
 }
@@ -24,7 +24,7 @@
   @media screen and (max-width: 768px) {
     min-height: 500px;
     height: auto;
-    margin: 180px auto;
+    margin-top: 180px;
   }
 
 
@@ -136,8 +136,6 @@
       opacity: 0;
       transform: translateY(25px);
       transition: all .4s;
-
-
     }
 
   }

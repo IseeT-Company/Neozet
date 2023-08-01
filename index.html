@@ -21,8 +21,8 @@
 			<div class="header__inner">
 				<div class="container">
 					<div class="header__content flex">
-						<img src="assets/images/NeoZet-logo.svg" class="logo" />
-						<nav class="nav">
+<!--						<img src="assets/images/NeoZet-logo.svg" class="logo" />-->
+						<!--<nav class="nav">
 							<ul class="nav__list flex">
 								<li class="nav__item">
 									<a href="#" class="nav__link">Услуги</a>
@@ -34,10 +34,47 @@
 									<a href="#" class="nav__link">Контакты</a>
 								</li>
 							</ul>
-							<button class="advantages__btn btn-reset" data-bs-toggle="modal"
+							<button class="btn btn-reset" data-bs-toggle="modal"
 								data-bs-target="#staticBackdrop">
 								Оставить заявку
 							</button>
+						</nav> -->
+						<nav class="container-fluid navbar navbar-expand-lg bg-body-tertiary">
+							<div class="container-fluid">
+								<a class="navbar-brand" href="#">
+									<img src="assets/images/NeoZet-logo.svg" class="logo" />
+								</a>
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<ul style="margin: 0  auto;" class="navbar-nav me-auto mb-2 mb-lg-0">
+<!--										<li class="nav-item">-->
+<!--											<a class="nav-link active" aria-current="page" href="#">Home</a>-->
+<!--										</li>-->
+<!--										<li class="nav-item">-->
+<!--											<a class="nav-link" href="#">Link</a>-->
+<!--										</li>-->
+<!--										-->
+<!--										<li class="nav-item">-->
+<!--											<a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
+<!--										</li>-->
+										<li class="nav-item">
+											<a href="#" class="nav-link">Услуги</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link">О компании</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link">Контакты</a>
+										</li>
+									</ul>
+									<button class="btn btn-reset" data-bs-toggle="modal"
+													data-bs-target="#staticBackdrop">
+										Оставить заявку
+									</button>
+								</div>
+							</div>
 						</nav>
 					</div>
 				</div>
@@ -252,7 +289,7 @@
 									</li>
 								</ul>
 								<div class="advantages__buttons">
-									<button class="advantages__btn btn-reset" data-bs-toggle="modal"
+									<button class="advantages__btn btn btn-reset" data-bs-toggle="modal"
 										data-bs-target="#staticBackdrop">
 										Оставить заявку
 									</button>
@@ -427,53 +464,56 @@
 						<p class="trusted-companies__descr section__descr">
 							Мы помогли множеству клиентов воплотить их идеи в реальность
 						</p>
-						<ul class="trusted-companies__list">
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-							<li class="trusted-companies__item">
-								<img src="assets/images/1C.svg" class="trusted-companies__img" />
-							</li>
-						</ul>
+						<div class="trusted-companies__content">
+							<ul class="trusted-companies__list" id="paginated-list">
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+								<li class="trusted-companies__item">
+									<img src="assets/images/1C.svg" class="trusted-companies__img" />
+								</li>
+							</ul>
+
+						</div>
 					</div>
 				</div>
 			</section>
@@ -584,7 +624,7 @@
 				<div class="footer__inner">
 					<div class="footer__top flex">
 						<img src="assets/images/NeoZet-logo.svg" class="footer__img">
-						<button class="advantages__btn btn-reset" data-bs-toggle="modal"
+						<button class="btn btn-reset" data-bs-toggle="modal"
 							data-bs-target="#staticBackdrop">
 							Оставить заявку
 						</button>
@@ -601,73 +641,14 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
-	<script src="assets/js/script.js"></script>
+	<script src="assets/js/swiper.js"></script>
+	<script src="assets/js/btn-up.js"></script>
+	<script src="assets/js/red-wa.js"></script>
 
-	<script>
-		const btnUp = {
-			el: document.querySelector('.btn-up'),
-			show() {
-				// удалим у кнопки класс btn-up_hide
-				this.el.classList.remove('btn-up_hide');
-			},
-			hide() {
-				// добавим к кнопке класс btn-up_hide
-				this.el.classList.add('btn-up_hide');
-			},
-			addEventListener() {
-				// при прокрутке содержимого страницы
-				window.addEventListener('scroll', () => {
-					// определяем величину прокрутки
-					const scrollY = window.scrollY || document.documentElement.scrollTop;
-					// если страница прокручена больше чем на 400px, то делаем кнопку видимой, иначе скрываем
-					scrollY > 400 ? this.show() : this.hide();
-				});
-				// при нажатии на кнопку .btn-up
-				document.querySelector('.btn-up').onclick = () => {
-					// переместим в начало страницы
-					window.scrollTo({
-						top: 0,
-						left: 0,
-						behavior: 'smooth'
-					});
-				}
-			}
-		}
-
-		btnUp.addEventListener();
-	</script>
 
 	<!-- Скрипт для WhatsApp -->
 
-	<script>
-		function redWA() {
-
-			var options = {
-				year: 'numeric',
-				month: 'numeric',
-				day: 'numeric',
-				hour: 'numeric',
-				minute: 'numeric',
-				timezone: 'UTC'
-			};
-
-			const name = document.getElementById("form__name").value;
-			const email = document.getElementById("form__email").value;
-			const tel = document.getElementById("form__phone").value;
-			const msg = document.getElementById("form__message").value;
-
-			const date = new Date()
-
-			let text = `Новая заявка: ${date.toLocaleString("ru", options)}\r\nИмя: ${name}\r\nПочта: ${email}\r\nНомер телефона: ${tel}\r\nПроблема: ${msg}`;
-			// let text = `Новая заявка: ${date.toLocaleString("ru", options)}\r\n\Имя: ${name}\r\n\Почта: ${email}\r\n\Номер телефона: ${tel}`;
-
-			let url = `https://api.whatsapp.com/send/?phone=79258517902&text=${encodeURIComponent(text)}&type=phone_number&app_absent=0`
-
-			window.open(url);
-		}
-
-
-	</script>
+	<script></script>
 
 </body>
 

@@ -64,19 +64,4 @@
 		flex-wrap: wrap;
 		gap: 20px
 	}
-
-	&__btn {
-		background: $violet;
-		color: #fff;
-		padding: 10px 25px;
-		transition: background 0.2s ease-in-out;
-		-webkit-transition: background 0.2s ease-in-out;
-		-moz-transition: background 0.2s ease-in-out;
-		-ms-transition: background 0.2s ease-in-out;
-		-o-transition: background 0.2s ease-in-out;
-
-		&:hover {
-			background: $violet-light;
-		}
-	}
 }
