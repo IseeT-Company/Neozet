@@ -643,6 +643,8 @@ input, textarea {
     margin-bottom: 10px; }
   .footer__img {
     width: 80px; }
+  .footer__bottom {
+    font-family: 'Fira Sans', sans-serif; }
 
 @media (max-width: 1024px) {
   .advantages__block {
