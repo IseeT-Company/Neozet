@@ -1,3 +1,18 @@
+@media (max-width: 1199px) {
+  .contact-us {
+
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__left {
+      display: none;
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .advantages {
     &__block {
@@ -7,6 +22,21 @@
       display: none;
     }
 
+  }
+}
+
+@media (max-width: 991px) {
+
+  .form {
+
+    &__bottom {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__button {
+      margin-bottom: 20px;
+    }
   }
 }
 
