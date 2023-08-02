@@ -1,4 +1,14 @@
 @font-face {
+  font-family: 'Days';
+  src: local('Days-Regular'),
+  url("../fonts/Days.woff2") format("woff2"),
+  url("../fonts/Days.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Poppins';
   src: local('Poppins-Regular'),
   url("../fonts/Poppins-Regular.woff2") format("woff2"),
@@ -43,7 +53,7 @@
 body {
   width: 100%;
   min-width: 320px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Days', sans-serif;
   //font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #000;
