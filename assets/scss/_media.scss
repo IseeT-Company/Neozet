@@ -58,7 +58,25 @@
   }
 }
 
+@media (max-width: 768px) {
+  .map {
+
+    &__inner {
+      div {
+        height: 60vw;
+      }
+    }
+  }
+}
+
 @media (max-width: 600px) {
+  .how-we-work {
+
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   .advantages {
 
     &__list {
@@ -92,7 +110,7 @@
   .how-we-work {
 
     &__list {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 
