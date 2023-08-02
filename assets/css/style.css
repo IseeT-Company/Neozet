@@ -57,7 +57,8 @@ body {
   -ms-transition: background 0.2s ease-in-out;
   -o-transition: background 0.2s ease-in-out; }
   .btn:hover {
-    background: #8a50ba; }
+    background: #8a50ba;
+    color: #fff; }
 
 .flex {
   display: -webkit-box;
